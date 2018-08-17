@@ -142,7 +142,7 @@
      <item>
       <widget class="QLabel" name="label_4">
        <property name="text">
-        <string>0.1%</string>
+        <string>-</string>
        </property>
       </widget>
      </item>
@@ -168,7 +168,7 @@
      <item>
       <widget class="QLabel" name="label_7">
        <property name="text">
-        <string>0.01</string>
+        <string>-</string>
        </property>
       </widget>
      </item>
@@ -255,7 +255,7 @@
      <item>
       <widget class="QLabel" name="label_12">
        <property name="text">
-        <string>TextLabel</string>
+        <string>-</string>
        </property>
       </widget>
      </item>
@@ -287,7 +287,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -307,13 +307,13 @@
      <item>
       <widget class="QLabel" name="label_14">
        <property name="text">
-        <string>TextLabel</string>
+        <string>-</string>
        </property>
       </widget>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>

@@ -47,9 +47,6 @@ void MainWindow::updateJiaGe()
     float xiaDan = ui->doubleSpinBox->value();
     float price = ui->doubleSpinBox_2->value();
 
-
-    qDebug()<<ui->spinBox->value();
-
     if(buy_fall)
     {
         fuDongJia = xiaDan - price;
@@ -82,7 +79,7 @@ void MainWindow::updateJiaGe()
 
 void MainWindow::replyFinished(QNetworkReply* reply)
 {
-    qDebug() <<"finished\n";
+
     QByteArray data = reply->readAll();
 
 
